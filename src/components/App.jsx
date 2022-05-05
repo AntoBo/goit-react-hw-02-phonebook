@@ -25,7 +25,8 @@ export class App extends Component {
     // let filteredContacts = [];
     if (!filter) {
       //do nothing
-      return [...contacts];
+      // return [...contacts];
+      return contacts;
     } else {
       //filter with filter
       return [
